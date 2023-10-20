@@ -1,0 +1,41 @@
+body {
+    margin: 0px;
+}
+
+header {
+    background-color: rgba(217, 228, 158, 1);
+    color: red;
+    font-size: 12px; 
+    font-weight: 700;  
+    font-family: 'Roboto', sans-serif;
+}
+
+/* section {
+    color: pink;
+} */
+
+.hero{
+    color: blue;
+}
+
+#two {
+    color: aqua;
+}
+
+.products__item{
+    width: 20%;
+    border: 2px solid #f00;
+    border-radius: 12px;
+    margin: 10px 30px;
+}
+
+.products__item img{
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    object-position: center;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+}
+
+
