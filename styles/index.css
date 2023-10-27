@@ -5,8 +5,8 @@ body {
 header {
     background-color: rgba(217, 228, 158, 1);
     color: red;
-    font-size: 12px; 
-    font-weight: 700;  
+    font-size: 12px;
+    font-weight: 700;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -14,7 +14,7 @@ header {
     color: pink;
 } */
 
-.hero{
+.hero {
     color: blue;
 }
 
@@ -22,14 +22,13 @@ header {
     color: aqua;
 }
 
-.products__item{
+.products__item {
     width: 20%;
     border: 2px solid #f00;
     border-radius: 12px;
-    margin: 10px 30px;
 }
 
-.products__item img{
+.products__item img {
     width: 100%;
     height: 180px;
     object-fit: cover;
@@ -38,4 +37,12 @@ header {
     border-top-left-radius: 12px;
 }
 
-
+.hero__link {
+    display: block;
+    margin: 15px;
+    padding: 10px;
+    /* outline: auto; */
+    border: 1px solid #f00;
+    background-color: #161515;
+    color: rgb(250, 250, 250);
+}
