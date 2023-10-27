@@ -1,96 +1,44 @@
 body {
-    margin: 0px;
+    margin: 0;
 }
 
-header {
-    background-color: rgba(217, 228, 158, 1);
-    color: red;
-    font-size: 12px;
-    font-weight: 700;
-    font-family: 'Roboto', sans-serif;
+.container {
+    margin: 0 100px;
 }
 
-/* section {
-    color: pink;
-} */
-
-.hero {
-    color: blue;
-}
-
-#two {
-    color: aqua;
-}
-
-.products {
-    background-color: #3808e6;
-    height: 600px;
-
+.header {
     display: flex;
-    flex-direction: row-reverse;
-    justify-content: start;
-
-    align-items: start;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
 }
 
-.products__item {
-    /* display: inline-block; */
-    width: 20%;
-    border: 2px solid #f00;
-    border-radius: 12px;
-    margin-bottom: 10px;
+.header__logo>img {
+    height: 48px;
+    width: 174px;
 }
 
-.products__item img {
-    width: 100%;
-    height: 180px;
-    object-fit: cover;
-    object-position: center;
-    border-top-right-radius: 12px;
-    border-top-left-radius: 12px;
+.header__nav>ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
 }
 
-.hero__link {
-    display: block;
-    margin: 15px;
-    padding: 10px;
-    /* border: 1px solid #f00; */
-
-    border-left: 4px solid #f00;
-
-    border-radius: 12px;
-
-    /* margin-left: 10px;
-    margin-bottom: 10px;
-    margin-right: 10px;
-    margin-top: 10px; */
-
-    /* padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 10px;
-    padding-top: 10px; */
-
-    /* padding: 0 0 0 10px;
-    margin: 0 10px 0 0; */
-
-    /* padding: 10px 0;
-    margin: 0 10px; */
-
-
-    background-color: #161515;
-    color: rgb(250, 250, 250);
+.header__nav>ul>li {
+    list-style: none;
+    margin-left: 140px;
 }
 
-.team__card_photo {
-    height: 50px;
-    width: 50px;
-    background-color: #fa0505;
-    border-radius: 50%;
-    margin-left: 10px;
+.header__nav>ul>li>a {
+    text-decoration: none;
 
-    background-image: url('/assets/barbie.jpg');
+    color: rgba(0, 0, 0, 0.50);
+    font-family: Manrope;
+    font-size: 17px;
+    letter-spacing: 0.85px;
+}
 
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+.header__nav>ul>li>a:hover {
+    color: rgba(0, 0, 0, 0.75);
+    transform: scale(1.4);
 }

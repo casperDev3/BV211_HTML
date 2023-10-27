@@ -10,56 +10,39 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="styles/index.css" />
   </head>
 
   <body>
-    <header>HEADER</header>
+    <header class="header container">
+      <a href="/" class="header__logo">
+        <img src="assets/logo.png" alt="logo" />
+      </a>
+      <nav class="header__nav">
+        <ul>
+          <li>
+            <a href="#">Блог</a>
+          </li>
+          <li>
+            <a href="#">Вакансії</a>
+          </li>
+          <li>
+            <a href="#">Контакти</a>
+          </li>
+          <li>
+            <a href="#">Про нас</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
     <main>
-      <sidebar> SIDEBAR +++ </sidebar>
-      <section class="hero">
-        HERO
-        <a class="hero__link" href="https://www.google.com/" target="_blank"
-          >Google</a
-        >
-      </section>
-      <section class="products">
-        <div class="products__item">
-          <img src="assets/barbie.jpg" alt="barbie" />
-          <h2>test0</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique,
-            debitis. Numquam at deleniti distinctio doloribus consequuntur
-            obcaecati, magni dolor ab reprehenderit, quae nisi sequi officiis
-            accusantium adipisci. Est, velit molestiae?
-          </p>
-        </div>
-        <div class="products__item">
-          <img src="assets/barbie.jpg" alt="barbie" />
-          <h2>test1</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique,
-            debitis. Numquam at deleniti distinctio doloribus consequuntur
-            obcaecati, magni dolor ab reprehenderit, quae nisi sequi officiis
-            accusantium adipisci. Est, velit molestiae?
-          </p>
-        </div>
-        <div class="products__item">
-          <img src="assets/barbie.jpg" alt="barbie" />
-          <h2>test2</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique,
-            debitis. Numquam at deleniti distinctio doloribus consequuntur
-            obcaecati, magni dolor ab reprehenderit, quae nisi sequi officiis
-            accusantium adipisci. Est, velit molestiae?
-          </p>
-        </div>
-      </section>
-      <section class="team">
-        <div class="team__card">
-          <div class="team__card_photo"></div>
-        </div>
-      </section>
+      <section class="hero container">HERO</section>
     </main>
     <footer>FOOTER</footer>
   </body>
