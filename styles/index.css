@@ -22,7 +22,19 @@ header {
     color: aqua;
 }
 
+.products {
+    background-color: #3808e6;
+    height: 600px;
+
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: start;
+
+    align-items: start;
+}
+
 .products__item {
+    /* display: inline-block; */
     width: 20%;
     border: 2px solid #f00;
     border-radius: 12px;
