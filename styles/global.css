@@ -34,11 +34,13 @@ body {
     font-family: Manrope;
     font-size: 17px;
     letter-spacing: 0.85px;
+    transition: 0.5s;
 }
 
 .header__nav>ul>li>a:hover {
     color: rgba(0, 0, 0, 0.75);
     transform: scale(1.4);
+    transition: 0.5s;
 }
 
 .container {
