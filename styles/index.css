@@ -2,43 +2,46 @@ body {
     margin: 0;
 }
 
-.container {
-    margin: 0 100px;
-}
 
-.header {
+
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: #f00;
+
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    padding: 20px 0;
+
+    background-image: url("../assets/Helloween.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.header__logo>img {
-    height: 48px;
-    width: 174px;
-}
+.box__round {
+    width: 70px;
+    height: 70px;
+    background-color: #fff;
+    border-radius: 50px;
 
-.header__nav>ul {
+    color: #f00;
     display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url("../assets/barbie.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.lists>ul>li {
+    list-style: none;
+}
+
+.lists>ul {
     margin: 0;
     padding: 0;
-}
-
-.header__nav>ul>li {
-    list-style: none;
-    margin-left: 140px;
-}
-
-.header__nav>ul>li>a {
-    text-decoration: none;
-
-    color: rgba(0, 0, 0, 0.50);
-    font-family: Manrope;
-    font-size: 17px;
-    letter-spacing: 0.85px;
-}
-
-.header__nav>ul>li>a:hover {
-    color: rgba(0, 0, 0, 0.75);
-    transform: scale(1.4);
 }
