@@ -62,3 +62,56 @@ body {
     /* transform: translateX(100vw); */
     /* transform: scale(0.3); */
 }
+
+.hero {
+    position: relative;
+    z-index: 4;
+}
+
+.hero__circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #f00;
+    position: absolute;
+    /* top: 50px;
+    left: 70px; */
+    left: 0;
+    bottom: -30px;
+    z-index: 2;
+}
+
+.hero p {
+    position: relative;
+    z-index: 3;
+}
+
+.up-btn {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    color: #fff;
+    background-color: violet;
+    text-decoration: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    transition: 0.4s;
+}
+
+.up-btn:hover {
+    transform: scale(1.5);
+    transition: 0.4s;
+}
+
+.fill__element {
+    height: 300px;
+    width: 100%;
+    background-color: #000;
+    margin-bottom: 30px;
+}
