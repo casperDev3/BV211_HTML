@@ -44,6 +44,31 @@
     </nav>
   </header>
   <main>
+    <section class="form container">
+      <form>
+        <!-- Text -->
+        <label for="form_name">Enter your name:</label>
+        <input type="text" name="form_name" id="form_name" placeholder="Name" required>
+        <!-- Email -->
+        <label for="form_mail">Enter your mail:</label>
+        <input type="email" name="form_mail" id="form_mail" placeholder="Email">
+        <!-- Phone -->
+        <input type="number" name="form_tel" id="form_tel" placeholder="Phone">
+        <!-- Long text -->
+        <textarea name="form_text" id="form_text" cols="50" rows="20" placeholder="Comment..."></textarea>
+        <!-- Password -->
+        <input type="password" name="" id="">
+        <!-- date -->
+        <input type="date" name="" id="" min="2023-11-24">
+        <!-- time -->
+        <input type="time" min="09:00" max="18:00" />
+        <!-- color -->
+        <input type="color" name="color" id="">
+
+        <input type="submit" value="Send">
+      </form>
+    </section>
+
     <section class="doctors container">
       <div class="doctors__card">
         <div style="background-image: url('/assets/barbie.jpg');" class="doctors__img"></div>
