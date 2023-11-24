@@ -46,6 +46,7 @@
   <main>
     <section class="form container">
       <form>
+        <legend>Some title</legend>
         <!-- Text -->
         <label for="form_name">Enter your name:</label>
         <input type="text" name="form_name" id="form_name" placeholder="Name" required>
@@ -58,12 +59,40 @@
         <textarea name="form_text" id="form_text" cols="50" rows="20" placeholder="Comment..."></textarea>
         <!-- Password -->
         <input type="password" name="" id="">
-        <!-- date -->
+        <!-- Date -->
         <input type="date" name="" id="" min="2023-11-24">
-        <!-- time -->
+        <!-- Time -->
         <input type="time" min="09:00" max="18:00" />
-        <!-- color -->
+        <!-- Color -->
         <input type="color" name="color" id="">
+        <!-- File -->
+        <input type="file" name="form_file" id="">
+        <!-- Range -->
+        <input type="range" name="form_range" id="">
+        <!-- Check box -->
+        <input type="checkbox" name="tos" id="tos" checked>
+        <label for="tos">term of use</label>
+        <input type="checkbox" name="tos" id="tos" checked>
+        <label for="tos">term of use</label>
+        <!-- Radio button -->
+        <input type="radio" name="radio" id="radio1" checked>
+        <label for="radio1">r1</label>
+        <input type="radio" name="radio" id="radio2">
+        <label for="radio2">r2</label>
+        <input type="radio" name="radio" id="radio3">
+        <label for="radio3">r3</label>
+        <!-- select -->
+        <select name="select" id="">
+          <option value="" selected disabled>Choose</option>
+          <optgroup label="Group 1">
+            <option value="test1">Test 1</option>
+            <option value="test2">Test 2</option>
+          </optgroup>
+          <optgroup label="Group 2">
+            <option value="test3">Test 3</option>
+          </optgroup>
+
+        </select>
 
         <input type="submit" value="Send">
       </form>
