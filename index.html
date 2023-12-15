@@ -13,187 +13,41 @@
 
 <body>
   <main>
-    <button type="button" id="show_popup" class="d-none btn btn-primary" data-bs-toggle="modal"
-      data-bs-target="#exampleModal">
-      Launch demo modal
-    </button>
-    <div class="container">
-      <div class="row">
-        <div class="col-12 col-md-6 col-lg-3">
-          <div class="element">
-
-          </div>
-        </div>
-        <div class="col-12 col-md-6 col-lg-3">
-          <div class="element">
-            <h1>
-              test
-            </h1>
-          </div>
-        </div>
-        <div class="col-12 col-md-6 col-lg-3">
-          <div class="element">
-
-          </div>
-        </div>
-        <div class="col-12 col-md-6 col-lg-3">
-          <div class="element">
-
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-12">
-          <div class="d-flex flex-column">
-            <div class="btn btn-primary mb-2">
-              test
-            </div>
-            <div class="btn btn-danger mb-2">test</div>
-            <div class="btn btn-outline-warning mb-2">test</div>
-            <div class="btn btn-outline-success mb-2">test</div>
-            <div class="btn btn-secondary btn-lg disabled mb-2">test</div>
-          </div>
-        </div>
-        <div class="col-12">
-          <div class="accordion" id="accordionExample">
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingOne">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
-                  aria-expanded="true" aria-controls="collapseOne">
-                  Accordion Item #1
-                </button>
-              </h2>
-              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
-                data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse
-                  plugin
-                  adds
-                  the appropriate classes that we use to style each element. These classes control the overall
-                  appearance, as
-                  well
-                  as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or
-                  overriding our
-                  default variables. It's also worth noting that just about any HTML can go within the
-                  <code>.accordion-body</code>, though the transition does limit overflow.
+    <header class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-2">
+                    <a href="/">Home</a>
                 </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingTwo">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                  data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                  Accordion Item #2
-                </button>
-              </h2>
-              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse
-                  plugin
-                  adds the appropriate classes that we use to style each element. These classes control the overall
-                  appearance, as
-                  well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or
-                  overriding
-                  our
-                  default variables. It's also worth noting that just about any HTML can go within the
-                  <code>.accordion-body</code>, though the transition does limit overflow.
+                <div class="d-none d-lg-block col-10">
+                    <nav class="d-flex justify-content-end">
+                        <ul class="d-flex">
+                            <li><a href="#">Test</a></li>
+                            <li><a href="#">Test</a></li>
+                            <li><a href="#">Test</a></li>
+                            <li><a href="#">Test</a></li>
+                        </ul>
+                    </nav>
                 </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingThree">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                  data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                  Accordion Item #3
-                </button>
-              </h2>
-              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-                data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse
-                  plugin
-                  adds the appropriate classes that we use to style each element. These classes control the overall
-                  appearance, as
-                  well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or
-                  overriding
-                  our
-                  default variables. It's also worth noting that just about any HTML can go within the
-                  <code>.accordion-body</code>, though the transition does limit overflow.
+                <div class="col-10 d-flex justify-content-end align-items-center d-lg-none">
+                    <div class="header__burger">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
                 </div>
-              </div>
             </div>
-          </div>
         </div>
-        <div class="col-12">
-          <div class="custom_class">
-            <div class="alert alert-primary d-flex align-items-center" role="alert">
-              <svg class="bi flex-shrink-0 me-2" width="24" height="24" role="img" aria-label="Info:">
-                <use xlink:href="#info-fill" />
-              </svg>
-              <div>
-                An example alert with an icon
-              </div>
-            </div>
-          </div>
+        <div class="header__burger_view">
+            <ul class="d-flex flex-column justify-content-center align-items-center mt-4">
+                <li><a href="#">Test</a></li>
+                <li><a href="#">Test</a></li>
+                <li><a href="#">Test</a></li>
+                <li><a href="#">Test</a></li>
+            </ul>
         </div>
-
-      </div>
-    </div>
-
-    <div class="container">
-      <div class="row">
-        <div class="col-12">
-          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-                aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                aria-label="Slide 3"></button>
-            </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="./assets/barbie.jpg" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="./assets/barbie.jpg" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="./assets/barbie.jpg" class="d-block w-100" alt="...">
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-              data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-              data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- popup -->
-    <div>
-      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div>
-              <h1>
-                test
-              </h1>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+    </header>
+    <h2>Home Page</h2>
   </main>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
@@ -205,6 +59,7 @@
       }, 1000)
     })
   </script>
+  <script src="./scripts/index.js"></script>
 </body>
 
 </html>
